@@ -27,3 +27,13 @@ Agora é só rodar o código e esperar os downloads serem feitos
 As únicas alterações a serem feitas é na linha `L.download_hashtag(hashtag="selfie", max_count=10)` onde `selfie` pode ser substuído pela hashtag desejada e o valor de `max_count` pode ser trocado para o valor da quantidade de posts a serem baixados.
 
 Após isso, é só rodar o código e os downloads serão feitos. Os posts serão salvos em uma pasta com o nome da hashtag escolhida.
+
+
+
+# :envelope: Enviar mensagens pelo Instagram
+
+Código em Python que faz login em uma conta e envia mensagens para outra através da biblioteca `instabot`.
+
+## Instruções
+
+Instale a biblioteca através de  `pip install instabot`. Abra o arquivo `instagram_send_message`. Em `username` e `password`, coloque o nome de usuário e senha da conta que vai enviar a mensagem. Substitua `Escreva a mensagem` pela mensagem a ser enviada, e `profile_name de destino` pelo nome de usuário de quem vai receber a mensagem. Em seguida, é só rodar o código e acompanhar as mensagens de logs para ver se a mensagem foi enviada.
